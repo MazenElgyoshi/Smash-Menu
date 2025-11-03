@@ -2,8 +2,8 @@ import React from "react";
 
 function Footer() {
   const hour = new Date().getHours();
-  const openHour = 16;
-  const closeHour = 3;
+  const openHour = 14;
+  const closeHour = 2;
   const isOpen = hour >= openHour || hour <= closeHour;
 
   const openInstagram = () => {
