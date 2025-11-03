@@ -1,0 +1,50 @@
+/* الزر الخاص بالمنيو */
+#btn-menu {
+  background-color: #E53935; /* أزرق سماوي فاتح */
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#btn-menu:hover {
+  background-color: #D32F2F;
+  transform: translateY(-2px);
+}
+
+#btn-menu.active {
+  background-color: #D32F2F; /* أزرق أوضح */
+  color: white;
+  /* box-shadow: 0 0 10px rgba(77, 171, 247, 0.6); */
+}
+
+/* الزر الخاص بالعروض */
+#btn-offers {
+  background-color: #004B87; /* أخضر نعناعي فاتح */
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#btn-offers:hover {
+  background-color: #0072CE;
+  transform: translateY(-2px);
+}
+
+#btn-offers.active {
+  background-color: #0072CE; /* أخضر أعمق */
+  color: white;
+  /* box-shadow: 0 0 10px rgba(102, 187, 106, 0.6); */
+}
+
